@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background-color:#F5F5F5; 
+	width: 100%;
+}
+
+#container {
+	width: 80%;
+	max-width: 960px;
+	height: auto;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	background-color:#FFF;
+	box-shadow: 0 10px 15px #DDDDDD;
+	margin: 12px auto;
+	border-bottom: 3px solid #60B211;	
+}
+
+#header {
+	height: 80px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#content {
+	padding: 20px;
+}
+
+#footer {
+	font-size:9px;
+	padding: 10px;
+	background-color: #F5F5F5;
+	margin-right: -20px;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+h5 { font-size: 14px; }
+
+ul { 
+	list-style-type: disc; 
+	margin-left: 1em;
+}
+
+a {
+	text-decoration: none;
+	/*color: #76868E;*/
+	color: #808080;
+}
+
+section { padding-left: 2%; }
+
+li{ line-height: 19px; }
+
+p, li { 
+	color: #333; 
+	font-size: 16px;
+}
+
+.email { font-size: 20px; }
+
+.links {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+}
+
+.links > li {
+    display: inline;
+    color: #ACB6BB;
+}
+
+.links a { color: /*#76868E*/ #008302; }
+
+.links a:hover { color: #64C605; }
+
+#header a:hover { color: #64C605; }
+
+
+/* ************* */
+@media screen and (max-width: 960px) {
+	body { background-color: #F8C5BD; }
+}
+
+@media screen and (max-width: 768px) {
+	body { background-color: #F9E98C; }
+}
+
+@media screen and (max-width: 550px) {
+	body { background-color: #f1f6cf; }
+	
+	nav { width: 6em; }
+}
+
+@media screen and (max-width: 320px) {
+	body { background-color: #E1E1E1; }
+	
+	header h1 { 
+		width: 80%; 
+		height: 1.5em;
+	}
+
+	.email { font-size: 1.2em; }
+
+	h4 { font-size: 1.1em; }
+		
+	ul {
+    		margin: 0 0 0 1em;
+	}
+
+	li { font-size: 1em; }
+	}
+}

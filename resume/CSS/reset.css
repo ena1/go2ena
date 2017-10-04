@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+/*	font-size: 100%;
+*/	font-weight: normal;
+}
+ol { 
+	margin-left: 3em; 
+	list-style: decimal; 
+}
+
+ul { 
+	margin-left: 3em; 
+	list-style: square; 
+}
+
+img { border: 0; }
+
+a { outline: none; }
