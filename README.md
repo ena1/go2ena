@@ -8,4 +8,4 @@ My website showcases my portfolio, an introduction to selected projects. Learn a
 
 My portfolio is a one-page responsive website written in HTML5 and CSS3, with no framework dependencies.
 
-Visit http://go2ena.com on different devices, and watch the background color change!
+Visit http://go2ena.com/ on different devices, and watch the background color change!
